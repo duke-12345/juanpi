@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#box {
+	background-color: #F7F7F7;
+}
+
+#header {
+	background: linear-gradient(90deg, #FF464E, #FD5D25);
+	color: white;
+	margin-bottom: .2rem;
+}
+
+#header .hd-top {
+	width: 7.2rem;
+	height: .9rem;
+	padding: .28rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+}
+
+#header .hd-top>div {
+	font-size: .4rem;
+}
+
+#header .hd-top>div:nth-child(2) {
+	font-size: .4rem;
+	/*color: white;*/
+}
+
+#header .hd-bootom {
+	width: 7.2rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#header .hd-bootom>div {
+	padding: 0 1.1rem;
+	font-size: .43rem;
+	height: .44rem;
+	line-height: .44rem;
+}
+
+#header .hd-bootom>div:nth-child(1) {
+	border-right: .02rem solid white;
+}
+
+#header .hd-foot {
+	width: 7.2rem;
+	height: .7rem;
+	background: rgba(255, 255, 255, .9);
+	color: #FF9C09;
+	font-size: .26rem;
+	text-align: center;
+	line-height: .7rem;
+}
+
+#dingdan {
+	background-color: white;
+	margin-bottom: .2rem;
+}
+
+#dingdan .ding-top {
+	width: 7.2rem;
+	height: .9rem;
+	padding: 0 .35rem;
+	border-bottom: .01rem solid #ccc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#dingdan .ding-top>div:nth-child(1) {
+	font-size: .29rem;
+	color: #333;
+}
+
+#dingdan .ding-top>div:nth-child(2) {
+	color: #999;
+	font-size: .24rem;
+}
+
+#dingdan .ding-top>div:nth-child(2) span:nth-child(1) {
+	margin-right: .2rem;
+}
+
+#dingdan .ding-bot {
+	width: 7.2rem;
+	height: 1.5rem;
+	display: flex;
+}
+
+#dingdan .ding-bot>div {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #333;
+}
+
+#dingdan .ding-bot>div span:nth-child(1) {
+	font-size: .44rem;
+	color: #555;
+}
+
+#dingdan .ding-bot>div span:nth-child(2) {
+	font-size: .28rem;
+	margin-top: .2rem;
+}
+
+#my-ser {
+	background-color: white;
+}
+
+#my-ser .mySer {
+	width: 7.2rem;
+	height: .97rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 .4rem;
+}
+
+#my-ser .mySer div:nth-child(1) {
+	font-size: .32rem;
+}
+
+#my-ser .mySer div:nth-child(2) span{
+	margin-left: .2rem;
+	color: #999;
+}
