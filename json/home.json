@@ -1,0 +1,35 @@
+{
+	"code": 1000,
+	"data": {
+		"banner_ads": [
+			{
+				"pic": "//s2.juancdn.com/bao/160810/b/0/57ab02a8151ad1d4718b456a_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+				"url": "http://m.juanpi.com/brand/1363570?shop_id=1403760",
+				"id": "1165",
+				"size": "750*290"
+			}, {
+				"pic": "//s2.juancdn.com/bao/160810/2/4/57ab00fa151ad10e608b45cd_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+				"url": "http://m.juanpi.com/brand/1204492?shop_id=1963793",
+				"id": "1170",
+				"size": "750*290"
+			}, {
+				"pic": "//s2.juancdn.com/bao/160810/1/4/57ab0525151ad13f798b456d_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+				"url": "http://m.juanpi.com/brand/1566512?shop_id=1063719",
+				"id": "1175",
+				"size": "750*290"
+			}, {
+				"pic": "//s2.juancdn.com/bao/160810/f/8/57ab05a9151ad15a5e8b461b_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+				"url": "http://m.juanpi.com/brand/1620588?shop_id=1373706",
+				"id": "1180",
+				"size": "750*290"
+			}
+		],
+		"popup_ads": [],
+		"module_ads": [],
+		"topbanner": {
+			"pic": "",
+			"pic_url": "http://s.juancdn.com/jpwebapp/images/go_load_new.png",
+			"url": "http://m.juanpi.com/landing/app_1437990734"
+		}
+	}
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<script src="../lib/angular.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/lib/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/home.css" />
+		<script src="../lib/swiper.min.js"></script>
+
+	</head>
+
+	<body>
+		<!--留白top-->
+		<div id="l-top"></div>
+		<div ng-controller="homeCtrl">
+			<!--内容-->
+			<div class="home">
+				<ul id="moveUl" class="nav" ng-touchstart="touchStart()" ng-touchmove="touchMove()" ng-touchend="touchEnd">
+					<li>上新</li>
+					<li>女装</li>
+					<li>鞋包</li>
+					<li>母婴</li>
+					<li>居家数码</li>
+					<li>男士</li>
+					<!--<li>美妆</li>-->
+					<!--<li>美食</li>-->
+				</ul>
+				<!--swiper-->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" ng-repeat="x in data.banner_ads">
+							<img ng-src="{{x.pic}}" />
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<!--banner-->
+				<div class="banner">
+					<div class="items"><img src="../img/A7513E612BB30EBE6459565A4A522611_03.png" /></div>
+					<div class="items"><img src="../img/A7513E612BB30EBE6459565A4A522611_05.png" /></div>
+					<div class="items"><img src="../img/A7513E612BB30EBE6459565A4A522611_07.png" /></div>
+					<div class="items"><img src="../img/A7513E612BB30EBE6459565A4A522611_09.png" /></div>
+					<div class="items"><img src="../img/A7513E612BB30EBE6459565A4A522611_11.png" /></div>
+					<div class="items">最后疯抢</div>
+					<div class="items">9.9包邮</div>
+					<div class="items">拼团</div>
+					<div class="items">明日预售</div>
+					<div class="items">签到赚积分</div>
+				</div>
+				<!--content-->
+				<div class="content">
+					<div class="content-left"><img src="../img/A7513E612BB30EBE6459565A4A522611_02.png" /></div>
+					<div class="content-right">
+						<div class="content-right-items"><img src="../img/A7513E612BB30EBE6459565A4A522611_04.png" /></div>
+						<div class="content-right-items"><img src="../img/A7513E612BB30EBE6459565A4A522611_06.png" /></div>
+						<div class="content-right-items"><img src="../img/A7513E612BB30EBE6459565A4A522611_08.png" /></div>
+					</div>
+				</div>
+				<!--限时抢-->
+				<div class="panic-buying">
+					<div class="items"><img src="../img/508271444F500E5AB3EA10535C38EE17_02.png" /></div>
+					<div class="items"><img src="../img/508271444F500E5AB3EA10535C38EE17_04.png" /></div>
+				</div>
+				<!--商品list-->
+				<div class="listTop">
+					新折扣.每日早10:00上新
+				</div>
+				<div class="shopList">
+
+					<div class="items" ng-repeat="x in data1">
+						<a href="{{x.targetUrl}}">
+							<img ng-src="{{x.picurl}}"/>
+							<div>
+								<h5>满2件减6元 <span>上新</span></h5>
+								<p>苏媛品牌专场</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="items"></div>
+
+				</div>
+			</div>
+			<!---->
+		</div>
+		<!--底部留白-->
+		<div id="l-bottom"></div>
+	</body>
+
+	<script src="../lib/yzxRem.js"></script>
+
+	<script src="../js/ngTouch.js"></script>
+	<script src="../js/home.js"></script>
+	<script src="../js/controller.js"></script>
+
+</html>
